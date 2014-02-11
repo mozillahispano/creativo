@@ -1,0 +1,262 @@
+
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+	
+
+@font-face {
+	font-family: "Blog";
+	src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+	}
+
+@font-face {
+	font-family: "Title";
+	src: url(../fonts/raleway_thin.ttf) format("truetype");
+	}
+	
+@font-face {
+	font-family: "Body";
+	src: url(../fonts/OpenSans-Light.ttf) format("truetype");
+	}
+
+body {color: rgba(0,0,0,0.8);}
+a {color: rgba(0,150,221,0.95);}
+a:hover {color: rgba(0,150,221,1);}
+.sub-menu a {color: rgba(0,150,221,0.6);}
+.post h1 a {color: rgba(0,0,0,0.8);}
+.main-menu a {color: rgba(0,0,0,0.8);}
+.twitter a {color: rgba(0,0,0,0.8);}
+.respond a {color: rgba(0,0,0,0.8);}
+.nav a {color: rgba(0,0,0,0.8);}
+#title a {color: rgba(0,0,0,0.8);}
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+body { font: 18px/32px "Body", Verdana, sans-serif;}
+a {text-decoration: none;}
+.sub-menu a  {text-decoration: none;}
+
+h1, h2, h3, h4, small, .small, .gigantic {font-family: 'Title', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; line-height: 100%; margin-bottom: 24px; color: rgb(0,0,0,0.95);}
+
+.menu, .widget-container a {font-family: 'Blog', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; font-size: 16px; line-height: 24px; margin-bottom: 24px;}
+.menu-title {font-family: 'Title', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; font-size: 18px; line-height: 24px; }
+.main-menu {height: 24px; font-size: 24px; line-height: 100%;}
+.icon-map-marker {height: 24px; font-size: 24px; line-height: 100%;}
+.icon-home {height: 24px; font-size: 24px; line-height: 100%;}
+.twitter {height: 24px; font-size: 24px; line-height: 100%;}
+.respond {font-size: 24px; line-height: 100%;}
+.nav {font-size: 24px; line-height: 100%;}
+.bio-name {font-family: 'Blog', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; font-size: 16px; line-height: 24px;}
+
+
+.gigantic { font-size: 500%; letter-spacing: -2px;}
+h1 { font-size: 400%; letter-spacing: -1px;}
+h2 { font-size: 300%; margin-top: 64px;}
+h3 { font-size: 200%;}
+h4 { font-size: 150%;}
+.small, small { font-size: 75%;}
+
+.alert { background:red; color:white } /* 'alert' has a basic style, since it's useful to have it standing out for testing purposes. */
+.wp-caption a:hover { color:#000; border-bottom: none;}
+.wp-caption-text { font-family: 'Blog', serif; font-size: 12px; margin-top: 0px; letter-spacing: 0px; font-style: italic; color: rgba(0,0,0,0.6);}
+
+.widget-container h3  {}
+.widget-container { font: 12px/24px "Body", Verdana, sans-serif; color: rgba(255,255,255,0.25);}
+.widget-container a {color: rgba(255,255,255,0.95);}
+.widget-container a:hover {color: rgba(255,255,255,1);}
+
+.category_listing h2 {margin-top: 0px;}
+.category h1 { margin-bottom: 64px; color: rgb(0,0,0,0.95);}
+.category h1 a {color: rgb(0,0,0,0.95);}
+
+.comment {font: 12px/18px "Body", Verdana, sans-serif;}
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment, .comment-notes {font: 14px/21px 'OpenSans', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;}
+.form-allowed-tags {font-size: 10px; line-height: 15px;}
+
+p {text-align: left;}
+
+#title {
+	font-family: 'Blog', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 12pt;
+}
+
+footer {font-size: 75%;}
+
+.month {
+    font-family: 'Title', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 10pt;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+
+}
+
+.day {
+    font-family: 'Title', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 20pt;
+	line-height: 24px;
+	text-align: center;
+	display: block;
+	letter-spacing: 1px;
+	margin-top: -4px;
+	margin-bottom: 8px;
+
+}
+.year {
+    font-family: 'Title', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 10pt;
+	line-height: 10px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 4px;
+	margin-top: -3px;
+	display: block;
+
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.gigantic { font-size: 400%; letter-spacing: -2px;}
+h1 { font-size: 300%; letter-spacing: -0.25px;}
+h2 { font-size: 225%;}
+h3 { font-size: 175%;}
+h4 { font-size: 125%;}
+.small, small { font-size: 75%;}
+p {text-align: left;}
+	
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.gigantic { font-size: 300%; letter-spacing: -2px;}
+h1 { font-size: 200%; letter-spacing: -0.25px;}
+h2 { font-size: 175%;}
+h3 { font-size: 150%;}
+h4 { font-size: 125%;}
+.small, small { font-size: 75%;}
+p {text-align: left;}
+	
+}
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
+
+
+
+
+/* Font stack options
+
+	The following represents a list of font stacks, as recommended by Nathan Ford in
+	http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+
+	I've added inverted commas around the relevant family names to ensure compatibility.
+	p = balanced for paragraphs or body copy
+	t = balanced for headlines or titles
+
+	- - - -
+
+Arial, "Helvetica Neue", Helvetica, sans-serif - p, t
+
+Baskerville, "Times New Roman", Times, serif - p
+Baskerville, "Times, Times New Roman", serif - t
+
+Cambria, Georgia, Times, "Times New Roman", serif - p, t
+"Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Consolas, "Lucida Console", Monaco, monospace - p, t
+
+"Copperplate Light", "Copperplate Gothic Light", serif - p, t
+
+"Courier New", Courier, monospace - p, t
+
+"Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif - p, t
+
+Futura, "Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Garamond, "Hoefler Text", "Times New Roman", Times, serif - p
+Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif - t
+
+Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif - p
+Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - t
+
+Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif - p
+Georgia, Times, "Times New Roman", serif - t
+
+GillSans, Calibri, Trebuchet, sans-serif - p
+GillSans, Trebuchet, Calibri, sans-serif - t
+
+"Helvetica Neue", Arial, Helvetica, sans-serif - p
+Helvetica, "Helvetica Neue", Arial, sans-serif - t
+
+Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif - p, t
+
+"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - p, t
+
+Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif - p
+Palatino, "Palatino Linotype", "Hoefler Text", Times, "Times New Roman", serif - t
+
+Tahoma, Geneva, Verdana - p
+Tahoma, Verdana, Geneva - t
+
+Times, "Times New Roman", Georgia, serif - p, t
+
+Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif - p
+Trebuchet, Tahoma, Arial, sans-serif - t
+
+Verdana, Geneva, Tahoma, sans-serif - p
+Verdana, Tahoma, Geneva, sans-serif - t
+
+*/
