@@ -1,3 +1,5 @@
 ## Equipo Creativo
 
-[Web en Gh-pages](http://mozillahispano.github.io/creativo/)
+Wordpress Template
+
+[Web en Gh-pages Demo](http://mozillahispano.github.io/creativo/) 
