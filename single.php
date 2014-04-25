@@ -1,13 +1,14 @@
 <?php get_header(); ?>
 <body class="single single-post postid-620 single-format-standard category-design" id="bg-620">
-	
+	<a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+	<br/><br/>
 	<div id="framework">
 
   	<div id="title" class="brand-title">
-      <h3><i class="fa fa-lightbulb-o"></i> Equipo Creativo</h3>
+      <i class="fa fa-lightbulb-o"></i> Equipo Creativo
       <div class="nav">
         <a href="<?php echo get_home_url(); ?>"><i class="fa fa-arrow-left"></i></a>                
-    	</div>           
+      </div>           
     </div>
 
     <div class="content css-620">    	
@@ -24,7 +25,5 @@
 	        <?php the_content() ?>
 	      </p>
       <?php endwhile; endif; ?>
-          
-    
 
 	<?php get_footer(); ?>
