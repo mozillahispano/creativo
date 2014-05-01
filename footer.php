@@ -1,9 +1,10 @@
 	<br/><br/>
-  <div class="row">
-    <div class="small-3 small-centered columns">
-      <a class="tweet popup" href="#" title="Respond on Twitter" alt="Respond on Twitter"><small>respond on twitter</small> <i class="icon-twitter"></i></a>
-    </div>
-  </div>
+  	<div class="row">
+  		<hr/>
+	    <div class="small-4 small-centered columns">
+	    	<img src="<?php bloginfo('template_url'); ?>/img/mh-banner.png"/>     
+	    </div>
+  	</div>
 
 <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>

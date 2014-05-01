@@ -1,0 +1,42 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+
+h1, h2, h3, h4, p {
+	font-family: OpenSans;
+}
+
+.large {
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 100%;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 100%;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+}
+h4 {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+}
+.small {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.post {
+	height: 200px;
+}
