@@ -2,4 +2,4 @@
 
 Wordpress Template
 
-[Web en Gh-pages Demo](http://mozillahispano.github.io/creativo/) 
+Ver: [http://creativo-sgmes.rhcloud.com/](http://creativo-sgmes.rhcloud.com/) 
