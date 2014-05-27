@@ -14,6 +14,39 @@
 	 	<hr/>
   	</div>
   	<div class="row">
+	 	<div class="large-12 columns">
+	 		<?php
+
+			$menu = array(
+				'theme_location'  => '',
+				'menu'            => '',
+				'container'       => 'div',
+				'container_class' => '',
+				'container_id'    => '',
+				'menu_class'      => '',
+				'menu_id'         => '',
+				'echo'            => true,
+				'fallback_cb'     => 'wp_page_menu',
+				'before'          => '',
+				'after'           => '',
+				'link_before'     => '',
+				'link_after'      => '',
+				'items_wrap'      => '<nav class="top-bar" data-topbar><section class="top-bar-section"><ul id="%1$s" class="left">%3$s</ul></section></nav>',
+				'depth'           => 0,
+				'walker'          => ''
+			);
+
+			wp_nav_menu( $menu );
+
+			?>
+	 	</div>
+  	</div>
+  	<div class="row">
+	 	<hr/>
+	 	<br/>
+	 	<br/>
+  	</div>
+  	<div class="row">
 
   	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     	<div class="large-4 columns">
