@@ -1,26 +1,18 @@
 <?php get_header(); ?>
 <body>
-	<div class="row">
-		<div class="small-12 columns">
-			<a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+	<div class="row main-header">
+		<div class="small-5 columns logo"><br/>
+			<img src="<?php bloginfo('template_url'); ?>/img/logo.png"/>
 		</div>
-	</div>
-	<br/><br/><br/><br/>
-	<div class="row">
-		<div class="small-7 columns"></div>
-    <div class="small-5 columns"><h1><i class="fa fa-lightbulb-o"></i> Equipo Creativo</h1></div>
-	</div>
-	<div class="row">
-	 	<hr/>
-  	</div>
-  	<div class="row">
-	 	<div class="large-12 columns">
-	 		<?php
+		<div class="small-7 columns">
+			<a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+			<br/><br/><br/><br/><br/><br/>
+			<?php
 
 			$menu = array(
 				'theme_location'  => '',
 				'menu'            => '',
-				'container'       => 'div',
+				'container'       => 'dd',
 				'container_class' => '',
 				'container_id'    => '',
 				'menu_class'      => '',
@@ -31,7 +23,7 @@
 				'after'           => '',
 				'link_before'     => '',
 				'link_after'      => '',
-				'items_wrap'      => '<nav class="top-bar" data-topbar><section class="top-bar-section"><ul id="%1$s" class="left">%3$s</ul></section></nav>',
+				'items_wrap'      => '<dl class="sub-nav">%3$s</dl>',
 				'depth'           => 0,
 				'walker'          => ''
 			);
@@ -39,8 +31,10 @@
 			wp_nav_menu( $menu );
 
 			?>
-	 	</div>
-  	</div>
+
+		</div>		
+	</div>
+	
   	<div class="row">
 	 	<hr/>
 	 	<br/>

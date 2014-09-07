@@ -1,8 +1,8 @@
 	<br/><br/>
   	<div class="row">
   		<hr/>
-	    <div class="small-4 small-centered columns">
-	    	<img src="<?php bloginfo('template_url'); ?>/img/mh-banner.png"/>     
+	    <div class="small-12 small-centered columns main-footer">
+	    	<a href="https://github.com/mozillahispano/creativo" target="_blank">Proyecto de Código Abierto</a> 
 	    </div>
   	</div>
 
