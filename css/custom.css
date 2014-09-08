@@ -64,6 +64,23 @@ h4 {
 
 .sub-nav li a{
   color: #494949;
+  border: 1px solid transparent;
+  border-radius: 1.2em;
+  padding: 0.5em 2em;     
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sub-nav li.current-menu-item a{
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
+}
+
+.sub-nav li a:hover{
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
 }
 
 .main-footer {
