@@ -6,16 +6,10 @@
 	    </div>
   	</div>
 
-<script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#container').masonry({
-        itemSelector: '.item'
-    });
-});
-</script>
+<script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 
 </body>
 </html>

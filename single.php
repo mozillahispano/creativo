@@ -50,7 +50,7 @@
 	  				<div class="small-1 columns">
 	  					<h3>
 	  						<a href="#" title="Share on Twitter" alt="Share on Twitter">
-	  							<i class="fa fa-twitter"></i>
+	  							<i class="fi-social-twitter"></i>
 	  						</a>
 	  					</h3>
 	  				</div>
