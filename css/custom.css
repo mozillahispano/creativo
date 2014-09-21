@@ -1,12 +1,13 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/OpenSans-Light.ttf);
+}
+
 body {
   background-color: #FFF;
   background: linear-gradient(to bottom, rgba(233,237,240,1) 0%, rgba(255,255,255,1) 20em);
   background-repeat: repeat-x;
-}
-
-@font-face {
-	font-family: OpenSans;
-	src: url(../fonts/OpenSans-Light.ttf);
+  font-family: OpenSans;
 }
 
 h1, h2, h3, h4, p {
@@ -85,4 +86,35 @@ h4 {
 
 .main-footer {
   text-align: center;
+}
+
+.mensajeProyectos {
+  background-color: #4E5E77;
+}
+
+.mensajeProyectos h1 {
+  color: white;
+  text-align: center;
+}
+
+.mensajeProyectos h2 {
+  color: #8FA0BC;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 1.2em;
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.btnAbajo {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  transform: rotate(90deg);
 }
