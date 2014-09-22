@@ -2,7 +2,8 @@
   	<div class="row">
   		<hr/>
 	    <div class="small-12 small-centered columns main-footer">
-	    	<a href="https://github.com/mozillahispano/creativo" target="_blank">Proyecto de Código Abierto</a> 
+	    	<a href="https://github.com/mozillahispano/creativo" target="_blank">Proyecto de Código Abierto</a>
+	    	<br/><br/>
 	    </div>
   	</div>
 

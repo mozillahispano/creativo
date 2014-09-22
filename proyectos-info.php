@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Proyectos
+Template Name: Proyectos-Info
 */
 ?>
 <?php get_header(); ?>
@@ -62,18 +62,28 @@ Template Name: Proyectos
   				<div class="small-1 small-centered columns"><p class="btnAbajo">&raquo;</p></div>
   			</div>
   			<br/>
-  		</div>	  	
-  	</div>
-  	<div class="row">
-  		<div class="large-12 columns listaProyectos">
-	  		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
+  		</div>
+	  	<div class="large-12 columns">
+	  		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>	  			
+	  			
+		      	<h1><?php the_title(); ?></h1>
 		      	
 		      	<p>
 		        	<?php the_content() ?>
 		      	</p>
+		      	<?php 
+
+				$image = get_field('proyecto-imagen');
+
+				if( !empty($image) ): ?>
+
+					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+
+				<?php endif; ?>
 		      	
 	      	<?php endwhile; endif; ?>
+
 	  	</div>
-  	</div>
+  	</div>  
 
 	<?php get_footer(); ?>

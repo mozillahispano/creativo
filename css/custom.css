@@ -90,6 +90,9 @@ h4 {
 
 .mensajeProyectos {
   background-color: #4E5E77;
+  position: static;
+  z-index: -1;
+  
 }
 
 .mensajeProyectos h1 {
@@ -117,4 +120,10 @@ h4 {
   color: white;
   font-size: 4rem;
   transform: rotate(90deg);
+}
+
+.listaProyectos {
+  z-index: 2;
+  position: relative;
+  margin-top: -70px;
 }
