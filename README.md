@@ -2,7 +2,7 @@
 
 Wordpress Template - Version: 0.2
 
-###Plugin Necesarios
+###Plugins Necesarios
 
 * Advanced Custom Fields
 * WP Gallery Custom Links

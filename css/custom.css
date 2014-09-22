@@ -127,3 +127,40 @@ h4 {
   position: relative;
   margin-top: -70px;
 }
+
+.mensajeProyectoInfo {
+  background-color: #4E5E77;
+  position: static;
+  z-index: -1;
+  height: 25rem;  
+}
+
+.btnAtras {
+  color: #4E5E77;
+  font-size: 3rem;
+  border-radius: 50%;
+  padding-top: 0.9rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.9rem;
+  background: white;
+  margin-top: -10px;
+  z-index: 2;
+  position: absolute;
+  margin-top: -2.4rem; 
+}
+
+.mensajeProyectoInfo h1, h3 {
+  color: white;
+}
+
+.proyectoIntro {
+  word-wrap: break-word;
+}
+
+.mensajeProyectoImagen {
+  z-index: 2;
+  position: absolute;
+  margin-top: 1.8rem;
+  margin-left: 31rem;
+}
