@@ -6,10 +6,10 @@ Template Name: Proyectos
 <?php get_header(); ?>
 <body>
 	<div class="row main-header">
-		<div class="small-5 columns logo"><br/>
+		<div class="small-3 columns logo"><br/>
 		<img src="<?php bloginfo('template_url'); ?>/img/logo.png"/>
 		</div>
-		<div class="small-7 columns">
+		<div class="small-9 columns">
 			<a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
 			<br/><br/><br/><br/><br/><br/>
 			<?php
