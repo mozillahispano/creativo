@@ -1,0 +1,176 @@
+/*-----------------------------------------------------------------*/
+/*--------------------- DEFAULT HTML TAGS -------------------------*/
+/*-----------------------------------------------------------------*/
+
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
+	}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: $darkblue-regular;
+	}
+
+h1, h2, h3, h4, h5, h6	{ 
+	font-weight: normal;
+	line-height: emCalc(20px);
+	}
+
+p { 
+	font-size: 90%;
+	line-height: emCalc(25px);
+	word-spacing: emCalc(1px);
+	}
+
+a {
+	color: $color-text-link;
+	text-decoration: none;
+	}
+
+small { 
+	font-size: 65%;
+	}
+
+blockquote {
+	line-height: 1.5; 
+	border-left: 1px solid #292929;
+	padding-left: emCalc(20px);
+	font-style: italic;
+	font-size: 90%;
+	}
+
+q {
+	font-size: 22px;
+	line-height: 1.5; 
+	}
+
+hr {
+	border: solid 1px #bfcde2;
+	height: 1px;
+	}
+
+ul, ol {
+
+	}
+
+img {
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+/*------------------- TABLES --------------------*/
+
+table {  
+	border: 1px solid #d3dbf1; 
+	border-collapse:collapse;
+	width:100%;
+	margin: 0px auto;
+	text-align: left;
+	} 
+
+thead { 
+	height:40px; display:none;
+	@include background(linear-gradient(top, 
+		$color-content-header-start, 
+		$color-content-header-middle, 
+		$color-content-header-end));
+	}
+
+tbody { 
+	height:40px;
+	}
+
+tfoot { 
+	height:30px;
+	@include background(linear-gradient(top, 
+		$color-content-header-start, 
+		$color-content-header-middle, 
+		$color-content-header-end));	
+	}
+
+table caption { 
+	font-size:12px; 
+	margin:8px; 
+	} 
+	
+th {
+	font: bold 11px "Arial", Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid #d3dbf1;
+	border-top: 1px solid #d3dbf1;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 4px 4px 6px 12px;
+	}
+
+td {
+	border-bottom: 1px solid #d3dbf1;
+	padding: 0px 6px 0px 12px;
+	font-size:13px;
+	}
+
+
+/*------------------- FORMS --------------------*/
+
+form { }
+
+legend { 
+	font-size:18px; 
+	font-weight:bold; 
+	margin:10px 0px; 
+	color:#01215a; 
+	}
+
+fieldset { 
+	border: 0;
+	}
+
+label { 
+	color:#01215a;
+	}
+
+select {
+	width: 100%; 
+	margin:10px 0px;
+	}
+
+option { }
+
+input[type="text"] { 
+	width:100%;
+	border:2px solid #d3dbf1;
+	height:30px;
+	font-size:1em;
+	padding:3px 5px;
+	margin:10px 5px;
+	color:#62758b;
+	}
+
+input[type="password"] { 
+	width:310px !important;
+	border:2px solid #d3dbf1;
+	height:30px;
+	font-size:1.2em;
+	padding:3px 5px;
+	margin:10px 5px;
+	color:#62758b;
+	}
+
+textarea { 
+	width:100%;
+	border:2px solid #d3dbf1;
+	font-size:1em;
+	padding:5px 5px;
+	margin:0px 5px 10px 5px;
+	margin:10px 5px;
+	color:#62758b;
+	height: auto;
+	min-height: 50px;
+
+	}
+
+input:focus, textarea:focus {
+	border:2px solid #bcc5df;
+	}
+

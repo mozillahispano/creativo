@@ -1,0 +1,55 @@
+
+// Basic Palette
+
+$darkblue-bold: rgb(0, 12, 47);
+$darkblue-medium: rgb(36, 44, 68);
+$darkblue-regular: rgb(46, 54, 81); 
+
+$lightblue-bold: rgb(207, 217, 236);
+$lightblue-medium: rgb(225, 236, 249);
+$lightblue-regular: rgb(240, 244, 254);
+
+$blue: rgb(37, 170, 252);
+$violet: rgb(174, 0, 255);
+
+// Text Colors
+
+$color-text-link: $blue;
+$color-content-item-small: #8a90a4;
+
+// Gadients
+
+// Topbar - 2 colors (bottom to top)
+
+$color-topbar-start: rgba(46,54,81,1) 1%;
+$color-topbar-end: rgba(0,12,47,1) 85%;
+
+// Topbar Decoline - 2 colors (left to right)
+
+$color-decoline-start: rgba(37,170,252,1) 29%;
+$color-decoline-end: rgba(174,0,255,1) 72%;
+
+// Content Header - 3 colors (bottom to top)
+
+$color-content-header-start: rgba(255,255,255,1) 16%;
+$color-content-header-middle: rgba(239,243,244,1) 57%;
+$color-content-header-end: rgba(205,219,237,1) 100%;
+
+// Content Item - 4 colors (bottom to top)
+
+$color-content-item-start: rgba(253,255,255,1) 66%;
+$color-content-item-middle1: rgba(227,234,244,1) 82%;
+$color-content-item-middle2: rgba(215,226,239,1) 93%;
+$color-content-item-end: rgba(204,218,237,1) 100%;
+
+// Navigation Item (active) - 2 colors (bottom to top)
+
+$color-nav-active-start: rgba(65,78,112,1) 16%;
+$color-nav-active-end: rgba(41,54,88,1) 76%; 
+
+
+// Shadow Colors
+
+$shadow-content-area: rgba(85, 101, 149, 0.5); 
+$shadow-item: rgba(85, 101, 149, 0.5); 
+

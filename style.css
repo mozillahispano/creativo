@@ -1,7 +1,7 @@
 /*
 Theme Name: Equipo Creativo
 Github Theme URI: https://github.com/mozillahispano/creativo
-Author: Willy Aguirre - Equipo Creativo
+Authors: Willy Aguirre / Sebastian Serna - Equipo Creativo
 Author URI: https://github.com/marti1125
 Description: Equipo Creativo theme
 Version: 0.4
@@ -12,7 +12,5 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-@import "css/foundation.css";
 @import "css/foundation-icons/foundation-icons.css";
-@import "css/normalize.css";
-@import "css/custom.css";
+@import "css/main.css";

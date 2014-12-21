@@ -1,0 +1,169 @@
+/*-----------------------------------------------------------------*/
+/*------------------------- OLD CUSTOM STYLES ---------------------*/
+/*-----------------------------------------------------------------*/
+
+@font-face {
+  font-family: OpenSans;
+  src: url('#{$font-family}');
+}
+
+body {
+  background-color: #FFF;
+  background: url('#{$bg-body}') center top no-repeat;
+  font-family: OpenSans;
+} 
+
+h1, h2, h3, h4, p {
+	font-family: OpenSans;
+}
+
+.large {
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 100%;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 100%;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+}
+h4 {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+}
+.small {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.post {
+	height: 200px;
+}
+
+.main-header {
+  margin: auto;
+  background-repeat:  no-repeat;
+  background-position: left top;
+}
+
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 135px;
+}
+
+.sub-nav li a{
+  color: #494949;
+  border: 1px solid transparent;
+  border-radius: 1.2em;
+  padding: 0.5em 2em;     
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sub-nav li.current-menu-item a{
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
+}
+
+.sub-nav li a:hover{
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.mensajeProyectos {
+  position: static;
+  z-index: -1;
+  
+}
+
+.mensajeProyectos h1 {
+  color: #515784;
+  font-size: 4em;
+  text-align: center;
+}
+
+.mensajeProyectos h2 {
+  color: #515784;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 1.2em;
+  background-color: #FFF;
+  color: #0A88D4;
+  border-color: #E0E1E3;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.5em;
+}
+
+.btnAbajo {
+  text-align: center;
+  font-size: 4rem;
+  color: #515784;
+  transform: rotate(90deg);
+}
+
+.listaProyectos {
+  z-index: 2;
+  position: relative;
+  margin-top: -70px;
+}
+
+.mensajeProyectoInfo {
+  background-color: #4E5E77;
+  position: static;
+  z-index: -1;
+  height: 25rem;  
+}
+
+.btnAtras {
+  color: #4E5E77;
+  font-size: 3rem;
+  border-radius: 50%;
+  padding-top: 0.9rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.9rem;
+  background: white;
+  margin-top: -10px;
+  z-index: 2;
+  position: absolute;
+  margin-top: -2.4rem; 
+}
+
+.mensajeProyectoInfo h1, h3 {
+  color: white;
+}
+
+.proyectoIntro {
+  word-wrap: break-word;
+}
+
+.mensajeProyectoImagen {
+  z-index: 2;
+  position: absolute;
+  margin-top: 1.8rem;
+  margin-left: 31rem;
+}
