@@ -52,7 +52,7 @@ Template Name: Proyectos
   				<div class="small-4 small-centered columns"><h1>Sé Creativo</h1></div>  				
   			</div>
   			<div class="row">
-  				<div class="small-8 small-centered columns"><h2>¡Participa con tu tanlento en Mozilla Hispano!</h2></div>
+  				<div class="small-8 small-centered columns"><h2>¡Participa con tu talento en Mozilla Hispano!</h2></div>
   			</div>
   			<br/><br/>
   			<div class="row">

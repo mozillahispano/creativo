@@ -5,8 +5,7 @@
 
 body {
   background-color: #FFF;
-  background: linear-gradient(to bottom, rgba(233,237,240,1) 0%, rgba(255,255,255,1) 20em);
-  background-repeat: repeat-x;
+  background: url(../img/bg-body.jpg) center top no-repeat;
   font-family: OpenSans;
 }
 
@@ -50,7 +49,6 @@ h4 {
 
 .main-header {
   margin: auto;
-  background-image:  url(../img/rombos.png);
   background-repeat:  no-repeat;
   background-position: left top;
 }
@@ -89,19 +87,19 @@ h4 {
 }
 
 .mensajeProyectos {
-  background-color: #4E5E77;
   position: static;
   z-index: -1;
   
 }
 
 .mensajeProyectos h1 {
-  color: white;
+  color: #515784;
+  font-size: 4em;
   text-align: center;
 }
 
 .mensajeProyectos h2 {
-  color: #8FA0BC;
+  color: #515784;
   text-align: center;
 }
 
@@ -113,12 +111,13 @@ h4 {
   border-color: #E0E1E3;
   text-align: center;
   font-size: 1.1rem;
+  padding: 0.5em;
 }
 
 .btnAbajo {
   text-align: center;
-  color: white;
   font-size: 4rem;
+  color: #515784;
   transform: rotate(90deg);
 }
 
